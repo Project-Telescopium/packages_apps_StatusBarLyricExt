@@ -1,0 +1,16 @@
+//
+// Copyright (C) 2022 Project-Telescopium
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app_import {
+	name: "StatusBarLyricExt",
+	apk: "prebuilt/debug.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: false,
+	product_specific: true,
+}
